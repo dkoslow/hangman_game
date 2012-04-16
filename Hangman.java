@@ -16,9 +16,12 @@ public class Hangman extends ConsoleProgram {
 
     public void run() {
     	setGame();
-    	word = new HangmanLexicon();
     	
 	}
+    
+    private void setGame() {
+    	word = new HangmanLexicon();
+    }
 
     
     private HangmanLexicon word;
