@@ -76,6 +76,7 @@ public class Hangman extends ConsoleProgram {
     	return wordMarked;
     }
     
+    private HangmanCanvas canvas;
     private HangmanLexicon lexiconObject;
     private RandomGenerator rgen = RandomGenerator.getInstance();
     private String word;
