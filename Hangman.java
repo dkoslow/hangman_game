@@ -38,9 +38,9 @@ public class Hangman extends ConsoleProgram {
     			String guess = readLine("Your guess: ");
     			if ( guess.length() == 1 ) {
     				wordMarked = checkGuess(guess);
-    				if (lastGuess = true) {
+    				if (lastGuess == true) {
     					correctGuess();
-    				} else if (lastGuess = false) {
+    				} else if (lastGuess == false) {
     					incorrectGuess();
     				} else {
     					throw new ErrorException("lastGuess neither true nor false.");
