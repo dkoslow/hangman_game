@@ -61,11 +61,11 @@ public class Hangman extends ConsoleProgram {
     		} else
     			break;
     	}
-    	return wordMarked;
     	if (i > 0) {
     		lastGuess = true;
     	} else {
     		lastGuess = false;
+    	return wordMarked;
     	}
     } 
     private void incorrectGuess() {
