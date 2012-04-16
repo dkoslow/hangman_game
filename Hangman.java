@@ -70,9 +70,9 @@ public class Hangman extends ConsoleProgram {
     			break;
     	}
     	if (y > 0) {
-    		guessCorrect? = true;
+    		isGuessCorrect = true;
     	} else {
-    		lastGuess = false;
+    		isGuessCorrect = false;
     	}
     	return wordMarked;
     } 
