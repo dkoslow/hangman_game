@@ -36,8 +36,8 @@ public class Hangman extends ConsoleProgram {
     	}
     	
     }
-    private void checkGuess(String checkedGuess) {
-    	for( int i = 0; i < word.length(); i++) {
+    private String checkGuess(String checkedGuess) {
+    	while(true) {
     		
     	}
     }
