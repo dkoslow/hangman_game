@@ -29,7 +29,6 @@ public class Hangman extends ConsoleProgram {
     		wordMarked = wordMarked + "-";
     	}
     	while ( guessesRemaining > 0 ) {
-    		checkLettersRemaining();
     		while ( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
     			println("You have " + guessesRemaining + " left.");
