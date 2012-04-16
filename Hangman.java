@@ -22,12 +22,13 @@ public class Hangman extends ConsoleProgram {
     	lexiconObject = new HangmanLexicon();
     	int wordIndex = rgen.nextInt(0,lexiconObject.getWordCount());
     	word = lexiconObject.getWord(wordIndex);
-    	lettersRemaining = word.length();
+    	lettersemaining = word.length();
     }
     private void beginGame() {
     	println("Welcome to Hangman!");
-    	int length = word.length();
-    	wordMarked = length * "-";
+    	for (int i = 0; i < word.length(); i++) {
+    		wordMarked = wordMarked + "-";
+    	}
     	while ( guessesRemaining > 0 ) {
     		while ( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
