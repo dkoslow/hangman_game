@@ -39,9 +39,9 @@ public class Hangman extends ConsoleProgram {
     			if ( guess.length() == 1 ) {
     				guess = guess.toUpperCase();
     				wordMarked = checkGuess(guess);
-    				if (lastGuess == true) {
+    				if (isGuessCorrect == true) {
     					correctGuess();
-    				} else if (lastGuess == false) {
+    				} else if (isGuessCorrect == false) {
     					incorrectGuess();
     				} else {
 //    					throw new ErrorException("lastGuess neither true nor false.");
