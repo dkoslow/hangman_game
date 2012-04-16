@@ -58,6 +58,7 @@ public class Hangman extends ConsoleProgram {
     		char letter = checkedGuess.charAt(0);
     		if(word.charAt(i) == letter) {
     			wordMarked = wordMarked.substring(0, i) + checkedGuess + wordMarked.substring(i + 1);
+    			y++
     		}
     	}
     	while(true) {
