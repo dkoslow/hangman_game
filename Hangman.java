@@ -67,7 +67,7 @@ public class Hangman extends ConsoleProgram {
     		} else
     			break;
     	}
-    	if (i > 0) {
+    	if (y > 0) {
     		lastGuess = true;
     	} else {
     		lastGuess = false;
