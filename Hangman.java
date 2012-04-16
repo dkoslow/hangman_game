@@ -83,7 +83,7 @@ public class Hangman extends ConsoleProgram {
     		println("Incorrect: There are no " + checkedGuess + "'s in the word.");
     	}
     	return wordMarked;
-    } 
+    }
 
     
     private HangmanLexicon lexiconObject;
