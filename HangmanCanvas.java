@@ -10,7 +10,7 @@ public class HangmanCanvas extends GCanvas {
 
 /** Resets the display so that only the scaffold appears */
 	public void reset() {
-		/* You fill this in */
+		GLine scaffoldVert = new GLine(getwidth() - HEAD_RADIUS, getwidth() - HEAD_RADIUS, 50, 50 + SCAFFOLD_HEIGHT )
 	}
 
 /**
