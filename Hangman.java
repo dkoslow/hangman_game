@@ -36,7 +36,7 @@ public class Hangman extends ConsoleProgram {
     	}
     	
     }
-    private void checkGuess(String guess) {
+    private void checkGuess(String checkedguess) {
     	
     }
 
