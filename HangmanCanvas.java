@@ -47,6 +47,7 @@ public class HangmanCanvas extends GCanvas {
 		/* You fill this in */
 	}
 	public GLabel wordDisplay;
+	private Hangman wordForDisplay;
 
 /* Constants for the simple version of the picture (in pixels) */
 	private static final int SCAFFOLD_HEIGHT = 360;
