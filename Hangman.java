@@ -18,7 +18,7 @@ public class Hangman extends ConsoleProgram {
 		canvas = new HangmanCanvas();
 		add(canvas);
 		canvas.reset();
-		canvas.displayWord()
+		canvas.displayWord();
 	}
 
     public void run() {
