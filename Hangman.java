@@ -14,6 +14,8 @@ import java.awt.*;
 
 public class Hangman extends ConsoleProgram {
 	
+	////////////////////DOES NOT WORK B/C OF showWord in displayWord method in HangmanCanvas
+	
 	public void init() {
 		canvas = new HangmanCanvas();
 		add(canvas);
