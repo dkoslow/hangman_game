@@ -57,10 +57,11 @@ public class Hangman extends ConsoleProgram {
     }
     private void incorrectGuess() {
     	//Handle incorrect guess
-    	println("Incorrect")
+    	println("Incorrect");
     }
     private void correctGuess() {
     	//Handle correct guess
+    	println("Correct");
     }
 
     
