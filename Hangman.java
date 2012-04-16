@@ -84,14 +84,6 @@ public class Hangman extends ConsoleProgram {
     	}
     	return wordMarked;
     } 
-    private void incorrectGuess() {
-    	//Handle incorrect guess
-    	
-    }
-    private void correctGuess() {
-    	//Handle correct guess
-    	println("Correct");
-    }
 
     
     private HangmanLexicon lexiconObject;
