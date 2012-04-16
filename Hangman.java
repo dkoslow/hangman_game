@@ -36,7 +36,11 @@ public class Hangman extends ConsoleProgram {
     			// if checked guess == 1 character
     			String oldwordMarked = wordMarked;
     			wordMarked = checkGuess(guess);
-    			if (old)
+    			if (oldwordMarked == wordMarked) {
+    				incorrectGuess();
+    			} else {
+    				correctGuess();
+    			}
     			
     		}
     	}
