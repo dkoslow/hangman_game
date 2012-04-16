@@ -28,8 +28,8 @@ public class Hangman extends ConsoleProgram {
     	for (int i = 0; i < word.length(); i++) {
     		wordMarked = wordMarked + "-";
     	}
-    	if( guessesRemaining > 0 ) {
-    		if( lettersRemaining > 0 ) {
+    	while( guessesRemaining > 0 ) {
+    		while( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
     			println("You have " + guessesRemaining + " left.");
     			String guess = readLine("Your guess: ");
