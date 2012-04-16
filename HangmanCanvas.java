@@ -4,6 +4,8 @@
  * This file keeps track of the Hangman display.
  */
 
+import java.awt.Color;
+
 import acm.graphics.*;
 
 public class HangmanCanvas extends GCanvas {
@@ -28,7 +30,7 @@ public class HangmanCanvas extends GCanvas {
 		String showWord = wordForDisplay.getWordMarked();
 		GLabel wordDisplay = new GLabel("test", 50, 50);
 		wordDisplay.setFont("Times-42");
-		wordDisplay.setColor(Color.RED);
+		wordDisplay.setColor(Color.red);
 		add(wordDisplay, 50, 50);
 	}
 
