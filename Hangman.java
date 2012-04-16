@@ -24,7 +24,7 @@ public class Hangman extends ConsoleProgram {
     	word = lexiconObject.getWord(wordIndex);
     }
     private void beginGame() {
-    	println("Welcome to Hangman")
+    	println("Welcome to Hangman!")
     }
 
     
