@@ -43,7 +43,7 @@ public class Hangman extends ConsoleProgram {
     				} else if (lastGuess = false) {
     					incorrectGuess();
     				} else {
-    					throw new ErrorException("lastGuess neither true nor false.")
+    					throw new ErrorException("lastGuess neither true nor false.");
     				}
     			} else {
     				println("You may only guess one letter at a time.");
