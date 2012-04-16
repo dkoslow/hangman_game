@@ -29,7 +29,7 @@ public class HangmanCanvas extends GCanvas {
 		Hangman wordForDisplay = new Hangman();
 		String showWord = wordForDisplay.getWordMarked();
 		GLabel wordDisplay = new GLabel("test", 50, 50);
-		wordDisplay.setFont("Times-42");
+		wordDisplay.setFont("Times-12");
 		wordDisplay.setColor(Color.red);
 		add(wordDisplay, 50, 50);
 	}
