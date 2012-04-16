@@ -21,6 +21,7 @@ public class Hangman extends ConsoleProgram {
     
     private void setGame() {
     	word = new HangmanLexicon();
+    	str x = word.getWord(1);
     	
     }
 
