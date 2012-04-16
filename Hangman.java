@@ -76,7 +76,7 @@ public class Hangman extends ConsoleProgram {
     		if (y != 1) {
     			println("Correct: There are " + y + " " + checkedGuess + "'s in the word.");
     		} else {
-    			println("Correct: There is " + y + " " + checkedGuess + "'s in the word.");
+    			println("Correct: There is " + y + " " + checkedGuess + " in the word.");
     		}
     	} else {
     		isGuessCorrect = false;
