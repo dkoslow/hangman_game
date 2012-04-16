@@ -53,7 +53,11 @@ public class Hangman extends ConsoleProgram {
     			} else {
     				println("You may only guess one letter at a time.");
     			}
-    			println("You have " + lettersRemaining + " letters remaining.");
+    			if (lettersRemaining != 1) {
+    				println("You have " + lettersRemaining + " letters remaining.");
+    			} else {
+    				println("You have " + lettersRemaining + " letter remaining.");
+    			}
     		}
     	}
     }
