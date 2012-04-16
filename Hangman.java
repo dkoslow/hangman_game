@@ -23,7 +23,7 @@ public class Hangman extends ConsoleProgram {
     public void run() {
     	setGame();
     	beginGame();
-    	displayWord();
+    	canvas.displayWord();
 	}
     private void setGame() {
     	lexiconObject = new HangmanLexicon();
