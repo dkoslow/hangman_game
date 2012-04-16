@@ -65,6 +65,7 @@ public class Hangman extends ConsoleProgram {
     		lastGuess = true;
     	} else {
     		lastGuess = false;
+    	}
     	return wordMarked;
     	}
     } 
