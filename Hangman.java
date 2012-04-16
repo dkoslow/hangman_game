@@ -41,7 +41,6 @@ public class Hangman extends ConsoleProgram {
     			} else {
     				correctGuess();
     			}
-    			
     		}
     	}
     	
@@ -55,6 +54,12 @@ public class Hangman extends ConsoleProgram {
     			break;
     	}
     	return wordMarked;	
+    }
+    private void incorrectGuess() {
+    	//Handle incorrect guess
+    }
+    private void correctGuess() {
+    	//Handle correct guess
     }
 
     
