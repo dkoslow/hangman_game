@@ -21,10 +21,11 @@ public class Hangman extends ConsoleProgram {
     
     private void setGame() {
     	word = new HangmanLexicon();
-    	 println(word.getWord(1));
+    	 
     	
     }
 
     
     private HangmanLexicon word;
+    private RandomGenerator rgen = RandomGenerator.getInstance();
 }
