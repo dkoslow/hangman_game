@@ -52,11 +52,11 @@ public class Hangman extends ConsoleProgram {
     	}
     }
     private String checkGuess(String checkedGuess) {
+    	int i = 0;
     	while(true) {
     		int pos = word.indexOf(checkedGuess);
     		if (pos >= 0) {
     			wordMarked = wordMarked.substring(0, pos) + checkedGuess + wordMarked.substring(pos + 1);
-    			lastGuess = true;
     		} else
     			break;
     	}
