@@ -14,7 +14,7 @@ import java.awt.*;
 public class Hangman extends ConsoleProgram {
 
     public void run() {
-    	word = new HangmanLexicon();
+    	word = new HangmanLexicon(1);
 	}
 
     
