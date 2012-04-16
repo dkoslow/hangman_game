@@ -36,7 +36,7 @@ public class Hangman extends ConsoleProgram {
     	}
     	
     }
-    private checkGuess(string) {
+    private string checkGuess(string) {
     	
     }
 
