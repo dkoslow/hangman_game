@@ -24,8 +24,8 @@ public class HangmanCanvas extends GCanvas {
  * been guessed so far; unguessed letters are indicated by hyphens.
  */
 	public void displayWord(String word) {
-		Hangman word = new Hangman();
-		String showWord = word.getWordMarked();
+		Hangman wordForDisplay = new Hangman();
+		String showWord = wordForDisplay.getWordMarked();
 		
 	}
 
