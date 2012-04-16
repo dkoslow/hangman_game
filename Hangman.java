@@ -73,10 +73,10 @@ public class Hangman extends ConsoleProgram {
     	if (y > 0) {
     		isGuessCorrect = true;
     		lettersRemaining = lettersRemaining - y;
-    		println("Correct: ")
+    		println("That guess is correct!")
     	} else {
     		isGuessCorrect = false;
-    		println("Incorrect: There are no " + letter + "'s in the word.");
+    		println("Sorry, there are no " + letter + "'s in the word.");
     	}
     	return wordMarked;
     } 
