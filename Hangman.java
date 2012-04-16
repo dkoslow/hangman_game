@@ -19,11 +19,11 @@ public class Hangman extends ConsoleProgram {
     	
 	}
     
-    private String setGame() {
+    private void setGame() {
     	lexiconObject = new HangmanLexicon();
     	int wordIndex = rgen.nextInt(0,lexiconObject.getWordCount());
     	word = lexiconObject.getWord(wordIndex);
-    	return word;
+
     	
     	
     	
