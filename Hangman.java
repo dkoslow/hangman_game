@@ -44,7 +44,6 @@ public class Hangman extends ConsoleProgram {
     				} else if (lastGuess == false) {
     					incorrectGuess();
     				} else {
-    					println("Error: lastGuess neither true nor false.");
 //    					throw new ErrorException("lastGuess neither true nor false.");
     				}
     			} else {
