@@ -19,5 +19,5 @@ public class Hangman extends ConsoleProgram {
 	}
 
     
-    private int word;
+    private HangmanLexicon word;
 }
