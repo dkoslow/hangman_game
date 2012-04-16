@@ -28,7 +28,7 @@ public class Hangman extends ConsoleProgram {
     	println("Welcome to Hangman!");
     	for (int i = 0; i < word.length() - 1; i++) {
     		wordMarked = "-";
-    		wordMarked = "-" + wordMarked;
+    		wordMarked = wordMarked + "-";
     	}
     	while ( guessesRemaining > 0 ) {
     		while ( lettersRemaining > 0 ) {
