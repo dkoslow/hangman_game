@@ -20,12 +20,14 @@ public class Hangman extends ConsoleProgram {
 	}
     
     private void setGame() {
-    	word = new HangmanLexicon();
-    	 
+    	lexiconObject = new HangmanLexicon();
+    	int wordIndex = rgen.nextInt(0,word.getWordCount());
+    	word.getWord(wordIndex);
+    	
     	
     }
 
     
-    private HangmanLexicon word;
+    private HangmanLexicon lexiconObject;
     private RandomGenerator rgen = RandomGenerator.getInstance();
 }
