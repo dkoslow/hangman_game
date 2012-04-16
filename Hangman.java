@@ -71,6 +71,6 @@ public class Hangman extends ConsoleProgram {
     private RandomGenerator rgen = RandomGenerator.getInstance();
     private String word;
     private int guessesRemaining = 8;
-    private int lettersRemaining = word.length();
+    private int lettersRemaining;
     private String wordMarked;
 }
