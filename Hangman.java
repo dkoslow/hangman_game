@@ -71,8 +71,6 @@ public class Hangman extends ConsoleProgram {
     	}
     	if (y > 0) {
     		lettersRemaining = lettersRemaining - y;
-    		canvas.removeWord();
-    		canvas.displayWord();
     		if (y != 1) {
     			println("Correct: There are " + y + " " + checkedGuess + "'s in the word.");
     		} else {
