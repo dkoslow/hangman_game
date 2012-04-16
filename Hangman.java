@@ -48,9 +48,7 @@ public class Hangman extends ConsoleProgram {
     		} else
     			break;
     	}
-    	return wordMarked;
-    			
-    	}
+    	return wordMarked;	
     }
 
     
