@@ -46,7 +46,7 @@ public class HangmanCanvas extends GCanvas {
 	public void noteIncorrectGuess(char letter) {
 		/* You fill this in */
 	}
-	public GLabel wordDisplay;
+	private GLabel wordDisplay;
 	private Hangman wordForDisplay;
 
 /* Constants for the simple version of the picture (in pixels) */
