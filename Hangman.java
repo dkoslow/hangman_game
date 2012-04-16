@@ -29,7 +29,7 @@ public class Hangman extends ConsoleProgram {
     		if( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
     			println("You have " + guessesRemaining + " left.");
-    			readString("Your guess: ");
+    			String guess = readline("Your guess: ");
     			
     		}
     	}
