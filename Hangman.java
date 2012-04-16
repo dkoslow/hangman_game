@@ -67,7 +67,6 @@ public class Hangman extends ConsoleProgram {
     		lastGuess = false;
     	}
     	return wordMarked;
-    	}
     } 
     private void incorrectGuess() {
     	//Handle incorrect guess
