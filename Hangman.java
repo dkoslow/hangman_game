@@ -27,7 +27,7 @@ public class Hangman extends ConsoleProgram {
     	println("Welcome to Hangman!");
     	if( guessesRemaining > 0 ) {
     		if( lettersRemaining > 0 ) {
-    			//PRINT LINES AND RECEIVE/REACT TO GUESS
+    			println("The word now looks like" + wordMarked)
     		}
     	}
     	
