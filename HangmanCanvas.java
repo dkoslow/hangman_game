@@ -24,8 +24,8 @@ public class HangmanCanvas extends GCanvas {
  * been guessed so far; unguessed letters are indicated by hyphens.
  */
 	public void displayWord(String word) {
-		showWord = new Hangman();
-		showWord.getWordMarked();
+		Hangman word = new Hangman();
+		String showWord = word.getWordMarked();
 		
 	}
 
@@ -39,7 +39,6 @@ public class HangmanCanvas extends GCanvas {
 		/* You fill this in */
 	}
 	
-	private Hangman showWord;
 
 /* Constants for the simple version of the picture (in pixels) */
 	private static final int SCAFFOLD_HEIGHT = 360;
