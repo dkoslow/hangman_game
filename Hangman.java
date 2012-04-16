@@ -63,7 +63,7 @@ public class Hangman extends ConsoleProgram {
     	}
     	if (y > 0) {
     		isGuessCorrect = true;
-    		lettersRemaining = lettersRemaining - y
+    		lettersRemaining = lettersRemaining - y;
     	} else {
     		isGuessCorrect = false;
     	}
