@@ -31,7 +31,7 @@ public class HangmanCanvas extends GCanvas {
 		wordDisplay = new GLabel("test", 500, 50);
 		wordDisplay.setFont("Times-12");
 		wordDisplay.setColor(Color.red);
-		add(wordDisplay, 50, 50);
+		add(wordDisplay);
 	}
 	public void removeWord() {
 		remove(wordDisplay);
