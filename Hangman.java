@@ -33,7 +33,7 @@ public class Hangman extends ConsoleProgram {
     			println("The word now looks like this: " + wordMarked);
     			println("You have " + guessesRemaining + " left.");
     			String guess = readLine("Your guess: ");
-    			// if checked guess == 1 character
+    			if ( guess.length() == 1 ) {
     				String oldwordMarked = wordMarked;
     				wordMarked = checkGuess(guess);
     				if (oldwordMarked == wordMarked) {
@@ -41,6 +41,8 @@ public class Hangman extends ConsoleProgram {
     				} else {
     					correctGuess();
     				}
+    			} else {
+    				println("You may only guess one letter at a time.")
     			}
     		}
     	}
