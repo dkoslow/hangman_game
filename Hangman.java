@@ -25,10 +25,18 @@ public class Hangman extends ConsoleProgram {
     }
     private void beginGame() {
     	println("Welcome to Hangman!");
+    	if( guessesRemaining > 0) {
+    		if(lettersRemaining > 0) {
+    			//PRINT LINES AND RECEIVE/REACT TO GUESS
+    		}
+    	}
+    	
     }
 
     
     private HangmanLexicon lexiconObject;
     private RandomGenerator rgen = RandomGenerator.getInstance();
     private String word;
+    private int guessesRemaining = 8;
+    private int lettersRemaining;
 }
