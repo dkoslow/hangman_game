@@ -48,13 +48,6 @@ public class Hangman extends ConsoleProgram {
     			if ( guess.length() == 1 ) {
     				guess = guess.toUpperCase();
     				wordMarked = checkGuess(guess);
-    				if (isGuessCorrect == true) {
-    					correctGuess();
-    				} else if (isGuessCorrect == false) {
-    					incorrectGuess();
-    				} else {
-//    					throw new ErrorException("lastGuess neither true nor false.");
-    				}
     			} else {
     				println("You may only guess one letter at a time.");
     			}
