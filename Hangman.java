@@ -75,7 +75,7 @@ public class Hangman extends ConsoleProgram {
     		lettersRemaining = lettersRemaining - y;
     		if (y != 1) {
     			println("Correct: There are " + y + " " + checkedGuess + "'s in the word.");
-    		}else {
+    		} else {
     			println("Correct: There is " + y + " " + checkedGuess + "'s in the word.");
     		}
     	} else {
