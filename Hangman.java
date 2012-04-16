@@ -37,9 +37,8 @@ public class Hangman extends ConsoleProgram {
     			println("You have " + guessesRemaining + " left.");
     			String guess = readLine("Your guess: ");
     			if ( guess.length() == 1 ) {
-    				String oldwordMarked = wordMarked;
     				wordMarked = checkGuess(guess);
-    				if (oldwordMarked == wordMarked) {
+    				if (lastGuess = true) {
     					incorrectGuess();
     				} else {
     					correctGuess();
