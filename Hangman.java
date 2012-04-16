@@ -11,6 +11,8 @@ import acm.util.*;
 
 import java.awt.*;
 
+import HangmanLexicon.java
+
 public class Hangman extends ConsoleProgram {
 
     public void run() {
