@@ -12,6 +12,7 @@ public class HangmanCanvas extends GCanvas {
 	public void reset() {
 		GLine scaffoldVert = new GLine(50, 50, 50, 50 + SCAFFOLD_HEIGHT);
 		add(scaffoldVert);
+		GLine scaffoldBeam = new GLine(50, 50, 50 + BEAMLENGTH, 50)
 	}
 
 /**
