@@ -20,7 +20,7 @@ public class Hangman extends ConsoleProgram {
 	}
     private void setGame() {
     	lexiconObject = new HangmanLexicon();
-    	int wordIndex = rgen.nextInt(0,lexiconObject.getWordCount());
+    	int wordIndex = rgen.nextInt(0,(lexiconObject.getWordCount() - 1));
     	word = lexiconObject.getWord(wordIndex);
     	lettersRemaining = word.length();
     	println(word);
