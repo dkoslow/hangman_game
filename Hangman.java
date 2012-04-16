@@ -39,6 +39,11 @@ public class Hangman extends ConsoleProgram {
     			} else {
     				println("You have " + guessesRemaining + " guess left.");
     			}
+    			if (lettersRemaining != 1) {
+    				println("You have " + lettersRemaining + " letters remaining.");
+    			} else {
+    				println("You have " + lettersRemaining + " letter remaining.");
+    			}
     			String guess = readLine("Your guess: ");
     			if ( guess.length() == 1 ) {
     				guess = guess.toUpperCase();
@@ -52,11 +57,6 @@ public class Hangman extends ConsoleProgram {
     				}
     			} else {
     				println("You may only guess one letter at a time.");
-    			}
-    			if (lettersRemaining != 1) {
-    				println("You have " + lettersRemaining + " letters remaining.");
-    			} else {
-    				println("You have " + lettersRemaining + " letter remaining.");
     			}
     		}
     	}
