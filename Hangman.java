@@ -30,4 +30,5 @@ public class Hangman extends ConsoleProgram {
     
     private HangmanLexicon lexiconObject;
     private RandomGenerator rgen = RandomGenerator.getInstance();
+    private string word;
 }
