@@ -27,5 +27,5 @@ public class Hangman extends ConsoleProgram {
 
     
     private HangmanLexicon word;
-    private string x;
+    private str x;
 }
