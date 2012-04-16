@@ -39,9 +39,9 @@ public class Hangman extends ConsoleProgram {
     			if ( guess.length() == 1 ) {
     				wordMarked = checkGuess(guess);
     				if (lastGuess = true) {
-    					incorrectGuess();
-    				} else {
     					correctGuess();
+    				} else if (lastGuess = false) {
+    					incorrectGuess();
     				}
     			} else {
     				println("You may only guess one letter at a time.");
