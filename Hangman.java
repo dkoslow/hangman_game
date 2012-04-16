@@ -44,8 +44,11 @@ public class Hangman extends ConsoleProgram {
     	while(true) {
     		int pos = word.indexOf(checkedGuess);
     		if (pos >= 0) {
-    			
-    		}
+    			wordMarked = wordMarked.substring(0, pos) + checkedGuess + wordMarked.substring(pos + 1)
+    		} else
+    			break;
+    	}
+    	return wordMarked;
     			
     	}
     }
