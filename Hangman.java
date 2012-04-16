@@ -61,14 +61,6 @@ public class Hangman extends ConsoleProgram {
     			y++;
     		}
     	}
-    	while(true) {
-    		int pos = word.indexOf(checkedGuess);
-    		if (pos >= 0) {
-    			wordMarked = wordMarked.substring(0, pos) + checkedGuess + wordMarked.substring(pos + 1);
-    			y++;
-    		} else
-    			break;
-    	}
     	if (y > 0) {
     		isGuessCorrect = true;
     	} else {
