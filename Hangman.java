@@ -64,7 +64,6 @@ public class Hangman extends ConsoleProgram {
     		}
     	}
     	if (y > 0) {
-    		isGuessCorrect = true;
     		lettersRemaining = lettersRemaining - y;
     		if (y != 1) {
     			println("Correct: There are " + y + " " + checkedGuess + "'s in the word.");
@@ -72,7 +71,6 @@ public class Hangman extends ConsoleProgram {
     			println("Correct: There is " + y + " " + checkedGuess + " in the word.");
     		}
     	} else {
-    		isGuessCorrect = false;
     		println("Incorrect: There are no " + checkedGuess + "'s in the word.");
     	}
     	return wordMarked;
@@ -84,5 +82,4 @@ public class Hangman extends ConsoleProgram {
     private int guessesRemaining = 8;
     private int lettersRemaining;
     private String wordMarked;
-    private Boolean isGuessCorrect;
 }
