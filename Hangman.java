@@ -39,4 +39,5 @@ public class Hangman extends ConsoleProgram {
     private String word;
     private int guessesRemaining = 8;
     private int lettersRemaining;
+    private String wordMarked;
 }
