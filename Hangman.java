@@ -43,7 +43,6 @@ public class Hangman extends ConsoleProgram {
     			}
     		}
     	}
-    	
     }
     private String checkGuess(String checkedGuess) {
     	while(true) {
