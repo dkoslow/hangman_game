@@ -35,7 +35,7 @@ public class Hangman extends ConsoleProgram {
     		while ( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
     			println("You have " + guessesRemaining + " left.");
-    			char guess = readLine("Your guess: ");
+    			char guess = readChar("Your guess: ");
     			if ( guess.length() == 1 ) {
     				guess = guess.toUpperCase();
     				wordMarked = checkGuess(guess);
