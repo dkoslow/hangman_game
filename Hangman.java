@@ -26,7 +26,7 @@ public class Hangman extends ConsoleProgram {
     private void beginGame() {
     	println("Welcome to Hangman!");
     	for (int i = 0; i < word.length(); i++) {
-    		String dash = "-"
+    		String dash = "-";
     		word.charAt(i) = "-";
     		
     	}
