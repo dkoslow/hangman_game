@@ -25,8 +25,8 @@ public class Hangman extends ConsoleProgram {
     }
     private void beginGame() {
     	println("Welcome to Hangman!");
-    	if( guessesRemaining > 0) {
-    		if(lettersRemaining > 0) {
+    	if( guessesRemaining > 0 ) {
+    		if( lettersRemaining > 0 ) {
     			//PRINT LINES AND RECEIVE/REACT TO GUESS
     		}
     	}
