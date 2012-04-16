@@ -43,7 +43,9 @@ public class Hangman extends ConsoleProgram {
     private String checkGuess(String checkedGuess) {
     	while(true) {
     		int pos = word.indexOf(checkedGuess);
-    		if (pos >= 0)
+    		if (pos >= 0) {
+    			
+    		}
     			
     	}
     }
