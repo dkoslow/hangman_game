@@ -42,7 +42,7 @@ public class Hangman extends ConsoleProgram {
     					correctGuess();
     				}
     			} else {
-    				println("You may only guess one letter at a time.")
+    				println("You may only guess one letter at a time.");
     			}
     		}
     	}
