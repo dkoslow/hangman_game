@@ -64,7 +64,7 @@ public class Hangman extends ConsoleProgram {
     private String checkGuess(String checkedGuess) {
     	int y = 0;
     	for ( int i = 0; i < word.length(); i++) {
-    		char letter = checkedGuess.charAt(0);
+    		letter = checkedGuess.charAt(0);
     		if(word.charAt(i) == letter) {
     			wordMarked = wordMarked.substring(0, i) + checkedGuess + wordMarked.substring(i + 1);
     			y++;
@@ -80,7 +80,7 @@ public class Hangman extends ConsoleProgram {
     } 
     private void incorrectGuess() {
     	//Handle incorrect guess
-    	println("Incorrect");
+    	println("Incorrect: There are no ");
     }
     private void correctGuess() {
     	//Handle correct guess
