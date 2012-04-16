@@ -30,7 +30,7 @@ public class Hangman extends ConsoleProgram {
     			println("The word now looks like this: " + wordMarked);
     			println("You have " + guessesRemaining + " left.");
     			String guess = readLine("Your guess: ");
-    			hiddenWord = checkGuess(guess);
+    			wordMarked = checkGuess(guess);
     			
     		}
     	}
