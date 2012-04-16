@@ -34,12 +34,13 @@ public class Hangman extends ConsoleProgram {
     			println("You have " + guessesRemaining + " left.");
     			String guess = readLine("Your guess: ");
     			// if checked guess == 1 character
-    			String oldwordMarked = wordMarked;
-    			wordMarked = checkGuess(guess);
-    			if (oldwordMarked == wordMarked) {
-    				incorrectGuess();
-    			} else {
-    				correctGuess();
+    				String oldwordMarked = wordMarked;
+    				wordMarked = checkGuess(guess);
+    				if (oldwordMarked == wordMarked) {
+    					incorrectGuess();
+    				} else {
+    					correctGuess();
+    				}
     			}
     		}
     	}
