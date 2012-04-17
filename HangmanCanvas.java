@@ -27,7 +27,7 @@ public class HangmanCanvas extends GCanvas {
  */
 	public void displayWord(String word) {
 		wordDisplay = new GLabel (word, 250, 50);
-		wordDisplay.setFont("Times-24");
+		wordDisplay.setFont("Times-18");
 		add(wordDisplay);
 	}
 	public void removeWord() {
