@@ -84,6 +84,8 @@ public class Hangman extends ConsoleProgram {
     		incorrectGuesses = incorrectGuesses + checkedGuess;
     		canvas.removeIncorrectGuess();
     		canvas.noteIncorrectGuess(incorrectGuesses);
+    		incorrectGuessCounter++
+    		canvas.addBodyPart(incorrectGuessCounter);
     	}
     	return wordMarked;
     }
@@ -100,4 +102,5 @@ public class Hangman extends ConsoleProgram {
     private String wordMarked;
     public GLabel wordDisplay;
     private String incorrectGuesses = "";
+    private int incorrectGuessCounter = 0;
 }
