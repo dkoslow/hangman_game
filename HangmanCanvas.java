@@ -109,8 +109,8 @@ public class HangmanCanvas extends GCanvas {
 	}
 	public void loseMessage() {
 		GLabel lose = new GLabel("You lose.", 100, 200);
-		win.setFont("Times-32");
-		win.setColor(Color.black);
+		lose.setFont("Times-32");
+		lose.setColor(Color.black);
 	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
