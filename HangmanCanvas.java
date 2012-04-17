@@ -63,7 +63,7 @@ public class HangmanCanvas extends GCanvas {
 		}
 	}
 	private void addHead() {
-		GOval head = new GOval(50 + BEAM_LENGTH - HEAD_RADIUS, 50 + ROPE_LENGTH, HEAD_RADIUS, HEAD_RADIUS );
+		GOval head = new GOval(50 + BEAM_LENGTH - HEAD_RADIUS, 50 + ROPE_LENGTH, 2* HEAD_RADIUS, 2* HEAD_RADIUS );
 		add(head);
 	}
 	private GLabel wordDisplay;
