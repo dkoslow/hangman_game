@@ -25,13 +25,7 @@ public class HangmanCanvas extends GCanvas {
  * state of the game.  The argument string shows what letters have
  * been guessed so far; unguessed letters are indicated by hyphens.
  */
-	public void displayWord() {
-		wordForDisplay = new Hangman();
-		wordDisplay = new GLabel(wordForDisplay.getWordMarked(), 225, 50);
-		wordDisplay.setFont("Times-16");
-		wordDisplay.setColor(Color.red);
-		add(wordDisplay);
-	}
+
 	public void removeWord() {
 		remove(wordDisplay);
 	}
