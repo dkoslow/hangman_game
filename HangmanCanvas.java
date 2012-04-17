@@ -41,7 +41,8 @@ public class HangmanCanvas extends GCanvas {
  * guesses that appears at the bottom of the window.
  */
 	public void noteIncorrectGuess(String word) {
-		incorrectGuessLabel = new GLabel(word, 50, 400);
+		incorrectGuessLabel = new GLabel(Incorrect guesses: word, 50, 400);
+		incorrectGuessLabel.setFont("Times-18");
 	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
