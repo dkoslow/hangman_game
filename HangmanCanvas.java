@@ -62,6 +62,9 @@ public class HangmanCanvas extends GCanvas {
 		default: return;
 		}
 	}
+	private void addHead() {
+		
+	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
 
