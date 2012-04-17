@@ -51,7 +51,7 @@ public class HangmanCanvas extends GCanvas {
 	public void addBodyPart(int x) {
 		switch (x) {
 		case 0: return;
-		case 1: addHead();
+		case 1: addHead(); return;
 		case 2: addBody();
 		case 3: addArmL();
 //		case 4: addArmR();
