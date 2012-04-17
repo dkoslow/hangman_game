@@ -18,7 +18,6 @@ public class Hangman extends ConsoleProgram {
 		canvas = new HangmanCanvas();
 		add(canvas);
 		canvas.reset();
-		canvas.displayWord();
 	}
     public void run() {
     	setGame();
@@ -37,6 +36,7 @@ public class Hangman extends ConsoleProgram {
     	for (int i = 0; i < (word.length() - 1); i++) {
     		wordMarked = wordMarked + "-";
     	}
+    	canvas.displayWord();
     	while ( guessesRemaining > 0 ) {
     		while ( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
