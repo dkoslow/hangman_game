@@ -52,13 +52,13 @@ public class HangmanCanvas extends GCanvas {
 		switch (x) {
 		case 0: return;
 		case 1: addHead();
-		case 2: addBody();
-		case 3: addArmL();
-		case 4: addArmR();
-		case 5: addLegL();
-		case 6: addLegR();
-		case 7: addFootL();
-		case 8: addFootR();
+//		case 2: addBody();
+//		case 3: addArmL();
+//		case 4: addArmR();
+//		case 5: addLegL();
+//		case 6: addLegR();
+//		case 7: addFootL();
+//		case 8: addFootR();
 		default: return;
 		}
 	}
