@@ -86,7 +86,6 @@ public class Hangman extends ConsoleProgram {
 		wordDisplay.setFont("Times-16");
 		wordDisplay.setColor(Color.red);
 		add(wordDisplay);
-    	return wordMarked;
     }
     
     private HangmanCanvas canvas;
