@@ -53,7 +53,7 @@ public class HangmanCanvas extends GCanvas {
 		case 0: return;
 		case 1: addHead(); return;
 		case 2: addBody(); return;
-		case 3: addArmL();
+		case 3: addArmL(); return;
 //		case 4: addArmR();
 //		case 5: addLegL();
 //		case 6: addLegR();
