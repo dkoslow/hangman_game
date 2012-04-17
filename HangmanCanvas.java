@@ -26,7 +26,7 @@ public class HangmanCanvas extends GCanvas {
  * been guessed so far; unguessed letters are indicated by hyphens.
  */
 	public void displayWord(String word) {
-		GLabel wordDisplay = new GLabel (word, 250, 50);
+		wordDisplay = new GLabel (word, 250, 50);
 		wordDisplay.setFont("Times-24");
 		add(wordDisplay);
 	}
@@ -42,6 +42,7 @@ public class HangmanCanvas extends GCanvas {
 	public void noteIncorrectGuess(char letter) {
 		/* You fill this in */
 	}
+	private GLabel wordDisplay;
 
 /* Constants for the simple version of the picture (in pixels) */
 	private static final int SCAFFOLD_HEIGHT = 360;
