@@ -26,7 +26,7 @@ public class HangmanCanvas extends GCanvas {
  * been guessed so far; unguessed letters are indicated by hyphens.
  */
 	public void displayWord() {
-	
+		add(wordDisplay);
 	}
 	public void removeWord() {
 		remove(wordDisplay);
