@@ -45,6 +45,9 @@ public class HangmanCanvas extends GCanvas {
 		incorrectGuessLabel.setFont("Times-18");
 		add(incorrectGuessLabel);
 	}
+	public void removeIncorrectGuess() {
+		remove(incorrectGuessLabel);
+	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
 
