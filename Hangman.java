@@ -81,7 +81,7 @@ public class Hangman extends ConsoleProgram {
     	}
     	return wordMarked;
     }
-    private String getWord() {
+    public String getWord() {
     	return wordMarked;
     }
     
