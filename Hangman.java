@@ -33,12 +33,12 @@ public class Hangman extends ConsoleProgram {
     	println(word);
     }
     private void beginGame() {
-    	canvas.displayWord();
     	println("Welcome to Hangman!");
     	wordMarked = "-";
     	for (int i = 0; i < (word.length() - 1); i++) {
     		wordMarked = wordMarked + "-";
     	}
+    	canvas.displayWord();
     	while ( guessesRemaining > 0 ) {
     		while ( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
