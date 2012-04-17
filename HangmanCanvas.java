@@ -41,9 +41,10 @@ public class HangmanCanvas extends GCanvas {
  * guesses that appears at the bottom of the window.
  */
 	public void noteIncorrectGuess(String word) {
-		/* You fill this in */
+		incorrectGuessLabel = new GLabel 
 	}
 	private GLabel wordDisplay;
+	private GLabel incorrectGuessLabel;
 
 /* Constants for the simple version of the picture (in pixels) */
 	private static final int SCAFFOLD_HEIGHT = 360;
