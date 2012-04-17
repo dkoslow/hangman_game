@@ -53,12 +53,12 @@ public class HangmanCanvas extends GCanvas {
 		case 0: return;
 		case 1: addHead();
 		case 2: addBody();
-		case 3: addLARM();
-		case 4: addRARM();
-		case 5: addLLEG();
-		case 6: addRLEG();
-		case 7: addLFOOT();
-		case 8: addRFOOT();
+		case 3: addArmL();
+		case 4: addArmR();
+		case 5: addLegL();
+		case 6: addLegR();
+		case 7: addFootL();
+		case 8: addFootR();
 		default: return;
 		}
 	}
