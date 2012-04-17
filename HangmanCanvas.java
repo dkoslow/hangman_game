@@ -40,7 +40,7 @@ public class HangmanCanvas extends GCanvas {
  * on the scaffold and adds the letter to the list of incorrect
  * guesses that appears at the bottom of the window.
  */
-	public void noteIncorrectGuess(char letter) {
+	public void noteIncorrectGuess(String word) {
 		/* You fill this in */
 	}
 	private GLabel wordDisplay;
