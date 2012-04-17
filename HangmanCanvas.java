@@ -82,6 +82,9 @@ public class HangmanCanvas extends GCanvas {
 		add(shoulderR);
 		add(armR);
 	}
+	private void addLegL() {50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH, 50 + BEAM_LENGTH - HIP_WIDTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH
+		
+	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
 
