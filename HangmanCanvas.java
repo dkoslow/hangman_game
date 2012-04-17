@@ -76,6 +76,12 @@ public class HangmanCanvas extends GCanvas {
 		add(shoulderL);
 		add(armL);
 	}
+	private void addArmR() {
+		GLine shoulderR = new GLine(50 + BEAM_LENGTH, ARM_OFFSET_FROM_HEAD + 50 + ROPE_LENGTH + 2 * HEAD_RADIUS, 50 + BEAM_LENGTH + UPPER_ARM_LENGTH, ARM_OFFSET_FROM_HEAD + 50 + ROPE_LENGTH + 2 * HEAD_RADIUS);
+		GLine armR = new GLine(50 + BEAM_LENGTH - UPPER_ARM_LENGTH, ARM_OFFSET_FROM_HEAD + 50 + ROPE_LENGTH + 2 * HEAD_RADIUS, 50 + BEAM_LENGTH - UPPER_ARM_LENGTH, ARM_OFFSET_FROM_HEAD + 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + LOWER_ARM_LENGTH);
+		add(shoulderR);
+		add(armR);
+	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
 
