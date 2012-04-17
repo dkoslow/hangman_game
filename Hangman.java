@@ -63,7 +63,8 @@ public class Hangman extends ConsoleProgram {
     			canvas.winMessage();
     			return;
     		}
-    	}
+    	}canvas.loseMessage();
+    	return;
     }
     private String checkGuess(String checkedGuess) {
     	int y = 0;
