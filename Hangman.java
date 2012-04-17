@@ -14,8 +14,6 @@ import java.awt.*;
 
 public class Hangman extends ConsoleProgram {
 	
-	////////////////////DOES NOT WORK B/C OF showWord in displayWord method in HangmanCanvas
-	
 	public void init() {
 		canvas = new HangmanCanvas();
 		add(canvas);
@@ -38,7 +36,7 @@ public class Hangman extends ConsoleProgram {
     	for (int i = 0; i < (word.length() - 1); i++) {
     		wordMarked = wordMarked + "-";
     	}
-    	canvas.displayWord();
+    	displayCanvasWord();
     	while ( guessesRemaining > 0 ) {
     		while ( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
@@ -83,7 +81,11 @@ public class Hangman extends ConsoleProgram {
     	}
     	return wordMarked;
     }
-    public String getWordMarked() {
+    public void displayCanvasWord() {
+		wordDisplay = new GLabel(wordMarked, 225, 50);
+		wordDisplay.setFont("Times-16");
+		wordDisplay.setColor(Color.red);
+		add(wordDisplay);
     	return wordMarked;
     }
     
