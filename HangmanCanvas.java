@@ -94,6 +94,9 @@ public class HangmanCanvas extends GCanvas {
 		add(hipR);
 		add(legR);
 	}
+	private void addFootL() {
+		GLine footL = new GLine(50 + BEAM_LENGTH - HIP_WIDTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH + LEG_LENGTH, 50 + BEAM_LENGTH - HIP_WIDTH + FOOT_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH + LEG_LENGTH)
+	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
 
