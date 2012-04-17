@@ -67,7 +67,7 @@ public class HangmanCanvas extends GCanvas {
 		add(head);
 	}
 	private void addBody() {
-		GLine body = new GLine(50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS, 50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH)
+		GLine body = new GLine(50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS, 50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH);
 	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
