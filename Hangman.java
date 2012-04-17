@@ -76,6 +76,8 @@ public class Hangman extends ConsoleProgram {
     		} else {
     			println("Correct: There is " + y + " " + checkedGuess + " in the word.");
     		}
+    		canvas.removeWord();
+    		canvas.displayWord(wordMarked);
     	} else {
     		println("Incorrect: There are no " + checkedGuess + "'s in the word.");
     	}
