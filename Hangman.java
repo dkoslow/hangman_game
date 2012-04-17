@@ -82,7 +82,7 @@ public class Hangman extends ConsoleProgram {
     	return wordMarked;
     }
     public void displayCanvasWord() {
-		wordDisplay = new GLabel(wordMarked, 225, 50);
+		Glabel wordDisplay = new GLabel(wordMarked, 225, 50);
 		wordDisplay.setFont("Times-16");
 		wordDisplay.setColor(Color.red);
 		add(wordDisplay);
