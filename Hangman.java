@@ -29,6 +29,7 @@ public class Hangman extends ConsoleProgram {
     	word = lexiconObject.getWord(wordIndex);
     	lettersRemaining = word.length();
     	println(word);
+    	incorrectGuessCounter = 0;
     }
     private void beginGame() {
     	println("Welcome to Hangman!");
