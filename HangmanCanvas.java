@@ -29,7 +29,6 @@ public class HangmanCanvas extends GCanvas {
 		add(wordDisplay);
 	}
 	public void removeWord() {
-		remove(wordDisplay);
 	}
 
 /**
