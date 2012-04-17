@@ -103,7 +103,9 @@ public class HangmanCanvas extends GCanvas {
 		add(footR);
 	}
 	public void winMessage() {
-		
+		GLabel win = new GLabel("You win!", 100, 200);
+		win.setFont("Times-32");
+		win.setColor(Color.black);
 	}
 	public void loseMessage() {
 		
