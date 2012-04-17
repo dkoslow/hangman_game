@@ -48,7 +48,7 @@ public class HangmanCanvas extends GCanvas {
 	public void removeIncorrectGuess() {
 		remove(incorrectGuessLabel);
 	}
-	public void addBodyPart(int) {
+	public void addBodyPart(int x) {
 		
 	}
 	private GLabel wordDisplay;
