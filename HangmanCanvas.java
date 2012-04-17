@@ -89,7 +89,7 @@ public class HangmanCanvas extends GCanvas {
 		add(legL);
 	}
 	private void addLegR() {
-		GLine hipR = new GLine(50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH, 50 + BEAM_LENGTH - HIP_WIDTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH);
+		GLine hipR = new GLine(50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH, 50 + BEAM_LENGTH + HIP_WIDTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH);
 		GLine legR = new GLine(50 + BEAM_LENGTH - HIP_WIDTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH, 50 + BEAM_LENGTH - HIP_WIDTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH + LEG_LENGTH);
 		add(hipR);
 		add(legR);
