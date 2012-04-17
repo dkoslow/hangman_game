@@ -91,6 +91,7 @@ public class Hangman extends ConsoleProgram {
     		canvas.noteIncorrectGuess(incorrectGuesses);
     		incorrectGuessCounter++;
     		canvas.addBodyPart(incorrectGuessCounter);
+    		guessesRemaining--;
     	}
     	return wordMarked;
     }
