@@ -50,7 +50,16 @@ public class HangmanCanvas extends GCanvas {
 	}
 	public void addBodyPart(int x) {
 		switch (x) {
-		case 1; addhead
+		case 0: return;
+		case 1: addHead();
+		case 2: addBody();
+		case 3: addLARM();
+		case 4: addRARM();
+		case 5: addLLEG();
+		case 6: addRLEG();
+		case 7: addLFOOT();
+		case 8: addRFOOT();
+		default: return;
 		}
 	}
 	private GLabel wordDisplay;
