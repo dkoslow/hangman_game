@@ -52,7 +52,7 @@ public class HangmanCanvas extends GCanvas {
 		switch (x) {
 		case 0: return;
 		case 1: addHead();
-//		case 2: addBody();
+		case 2: addBody();
 //		case 3: addArmL();
 //		case 4: addArmR();
 //		case 5: addLegL();
@@ -65,6 +65,9 @@ public class HangmanCanvas extends GCanvas {
 	private void addHead() {
 		GOval head = new GOval(50 + BEAM_LENGTH - HEAD_RADIUS, 50 + ROPE_LENGTH, 2* HEAD_RADIUS, 2* HEAD_RADIUS );
 		add(head);
+	}
+	private void addBody() {
+		GLine body = new GLine(50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS, 50 + BEAM_LENGTH, 50 + ROPE_LENGTH + 2 * HEAD_RADIUS + BODY_LENGTH)
 	}
 	private GLabel wordDisplay;
 	private GLabel incorrectGuessLabel;
