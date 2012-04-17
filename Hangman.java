@@ -40,7 +40,7 @@ public class Hangman extends ConsoleProgram {
     	canvas.displayWord(wordMarked);
     	canvas.noteIncorrectGuess(incorrectGuesses);
     	while ( guessesRemaining > 0 ) {
-    		while ( lettersRemaining > 0 ) {
+    		if ( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
     			if (guessesRemaining != 1) {
     				println("You have " + guessesRemaining + " guesses left.");
@@ -59,6 +59,9 @@ public class Hangman extends ConsoleProgram {
     			} else {
     				println("You may only guess one letter at a time.");
     			}
+    		} else {
+    			canvas.winMessage();
+    			return;
     		}
     	}
     }
