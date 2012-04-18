@@ -26,12 +26,10 @@ public class HangmanLexicon {
 			throw new ErrorException(e);
 		}
 	}
-
 /** Returns the number of words in the lexicon. */
 	public int getWordCount() {
 		return gameWords.size();
 	}
-
 /** Returns the word at the specified index. */
 	public String getWord(int index) {
 		return gameWords.get(index);
