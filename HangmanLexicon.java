@@ -10,7 +10,7 @@ import java.io.*;
 
 public class HangmanLexicon {
 	
-	private ArrayList <string> gameWords = new ArrayList <string> ();
+	private ArrayList <String> gameWords = new ArrayList <String> ();
 	
 	public HangmanLexicon() {
 		try {
