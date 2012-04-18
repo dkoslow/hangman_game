@@ -10,9 +10,17 @@ import java.io.*;
 
 public class HangmanLexicon {
 	
+	private ArrayList <string> gameWords = new ArrayList <string> ();
+	
 	public HangmanLexicon() {
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("C:\\HangmanLexicon.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("HangmanLexicon.txt"));
+			while(true) {
+				String line = reader.readLine();
+				if(line == null) break;
+				gameWords.add(line);
+				
+			}
 			
 		}
 	}
