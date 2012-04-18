@@ -6,15 +6,14 @@
  */
 
 import acm.util.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class HangmanLexicon {
 	
 	public HangmanLexicon() {
 		try {
-			BufferedReader reader = new BufferedReader()
+			BufferedReader reader = new BufferedReader(new FileReader("C:\\HangmanLexicon.txt"));
+			
 		}
 	}
 	
