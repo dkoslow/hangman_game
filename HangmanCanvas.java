@@ -103,13 +103,13 @@ public class HangmanCanvas extends GCanvas {
 		add(footR);
 	}
 	public void winMessage() {
-		GLabel win = new GLabel("You win!", BEAM_LENGTH - HEAD_RADIUS, 250);
+		GLabel win = new GLabel("You win!", 25 + BEAM_LENGTH - HEAD_RADIUS, 250);
 		win.setFont("Times-32");
 		win.setColor(Color.black);
 		add(win);
 	}
 	public void loseMessage() {
-		GLabel lose = new GLabel("You lose.", BEAM_LENGTH - HEAD_RADIUS, 250);
+		GLabel lose = new GLabel("You lose.", 25 + BEAM_LENGTH - HEAD_RADIUS, 250);
 		lose.setFont("Times-32");
 		lose.setColor(Color.black);
 		add(lose);
