@@ -28,7 +28,6 @@ public class Hangman extends ConsoleProgram {
     	int wordIndex = rgen.nextInt(0,(lexiconObject.getWordCount() - 1));
     	word = lexiconObject.getWord(wordIndex);
     	lettersRemaining = word.length();
-    	println(word);
     	incorrectGuessCounter = 0;
     }
     private void beginGame() {
