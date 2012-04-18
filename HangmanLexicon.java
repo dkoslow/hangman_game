@@ -19,9 +19,10 @@ public class HangmanLexicon {
 				String line = reader.readLine();
 				if(line == null) break;
 				gameWords.add(line);
-				
 			}
-			
+			reader.close();
+		} catch (IOException e) {
+			throw new ErrorException(e);
 		}
 	}
 	
