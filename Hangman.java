@@ -63,6 +63,7 @@ public class Hangman extends ConsoleProgram {
     			return;
     		}
     	}canvas.loseMessage();
+    	println("The word was" + word);
     	return;
     }
     private String checkGuess(String checkedGuess) {
