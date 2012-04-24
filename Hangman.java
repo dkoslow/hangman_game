@@ -42,9 +42,9 @@ public class Hangman extends ConsoleProgram {
     		if ( lettersRemaining > 0 ) {
     			println("The word now looks like this: " + wordMarked);
     			if (guessesRemaining != 1) {
-    				println("You have " + guessesRemaining + " guesses left.");
+    				println("You have " + guessesRemaining + " incorrect guesses left.");
     			} else {
-    				println("You have " + guessesRemaining + " guess left.");
+    				println("You have " + guessesRemaining + " incorrect guess left.");
     			}
     			if (lettersRemaining != 1) {
     				println("You have " + lettersRemaining + " letters remaining.");
