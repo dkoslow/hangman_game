@@ -1,9 +1,3 @@
-/*
- * File: HangmanCanvas.java
- * ------------------------
- * This file keeps track of the Hangman display.
- */
-
 import java.awt.Color;
 
 import acm.graphics.*;
